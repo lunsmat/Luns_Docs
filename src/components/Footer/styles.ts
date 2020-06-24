@@ -8,6 +8,10 @@ export const Container = styled.footer`
     font-size: 16px;
     color: #FFF;
     flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
 
     div {
         display: flex;
