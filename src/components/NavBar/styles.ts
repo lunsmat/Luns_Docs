@@ -13,9 +13,10 @@ export const Container = styled.nav<Props>`
     border: 1px solid #ddd;
     transition: 800ms;
     overflow-y: scroll;
+    background: #F8F9FA;
 
     @media screen and (max-width: 768px) {
-        right: ${props => !props.show ? '0' : '100vw'};
+        right: ${props => props.show === true ? 0 : '-360px'};
     }
 
     ul {
