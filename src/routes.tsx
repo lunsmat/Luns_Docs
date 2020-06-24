@@ -5,6 +5,7 @@ import GlobalStyle from './styles/global';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import PageContainer from './styles/components/PageContainer';
 
 import Home from './pages/Home';
 
@@ -15,9 +16,12 @@ const Routes: React.FC = () => {
         <BrowserRouter>
             <GlobalStyle />
             <Header setShowNavBar={setShowNavBar} showNavBar={showNavBar} />
-            <Switch>
-                <Route exact path="/" component={Home} />
-            </Switch>
+            <PageContainer navOpen={showNavBar}>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                </Switch>
+            </PageContainer>
+
             <NavBar show={showNavBar} />
             <Footer />
         </BrowserRouter>

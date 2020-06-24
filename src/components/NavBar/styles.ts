@@ -11,7 +11,6 @@ export const Container = styled.nav<Props>`
     top: 80px;
     right: ${props => props.show === true ? 0 : '-360px'};
     border: 1px solid #ddd;
-    background: #FFF;
     transition: 800ms;
     overflow-y: scroll;
 
