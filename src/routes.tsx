@@ -9,6 +9,7 @@ import PageContainer from './styles/components/PageContainer';
 
 import Home from './pages/Home';
 import PHP from './pages/PHP';
+import PHPConfig from './pages/PHP/Config';
 
 const Routes: React.FC = () => {
     const [showNavBar, setShowNavBar] = useState(true);
@@ -21,6 +22,7 @@ const Routes: React.FC = () => {
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/php" component={PHP} />
+                    <Route exact path="/php/config" component={PHPConfig} />
                 </Switch>
             </PageContainer>
 

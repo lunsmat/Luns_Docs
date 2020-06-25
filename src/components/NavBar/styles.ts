@@ -16,7 +16,7 @@ export const Container = styled.nav<Props>`
     background: #F8F9FA;
 
     @media screen and (max-width: 768px) {
-        right: ${props => props.show === true ? 0 : '-360px'};
+        right: ${props => !props.show === true ? 0 : '-360px'};
     }
 
     ul {
