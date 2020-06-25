@@ -21,7 +21,10 @@ export const Container = styled.nav<Props>`
 
     ul {
         list-style: none;
-        padding: 10px 0 0 15px;
+
+        li {
+            padding: 10px 0 0 15px;
+        }
 
         a {
             color: #333;

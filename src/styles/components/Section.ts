@@ -45,6 +45,10 @@ export default styled.section`
 
             main {
                 margin-left: 30px;
+
+                ul {
+                    margin-left: 20px;
+                }
             }
 
             a {
