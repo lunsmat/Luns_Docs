@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <div>
                 <span onClick={() => alert("Yes, I'm part of Rebel Alliance")}><FaRebel size={32} color="#FFF" /></span>
                 <a href="https://www.github.com/Luan-Farias" target="_blank" rel="noopener noreferrer"><FaLinkedin size={32} color="#FFF" /></a>
-                <a href="https://wa.me/5591992812696?text=Hello, I want to speak with you about a job" target="_blank" rel="noopener noreferrer"><FaWhatsapp size={32} color="#FFF" /></a>
+                <a href="https://wa.me/+5591992812696?text=Hello, I want to speak with you about a job" target="_blank" rel="noopener noreferrer"><FaWhatsapp size={32} color="#FFF" /></a>
                 <a href="mailto:luan.farias_bvs@outlook.com" target="_blank" rel="noopener noreferrer"><FiMail size={32} color="#FFF" /></a>
             </div>
         </Container>
