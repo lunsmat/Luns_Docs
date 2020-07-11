@@ -18,15 +18,15 @@ const Routes: React.FC = () => {
         <BrowserRouter>
             <GlobalStyle />
             <Header setShowNavBar={setShowNavBar} showNavBar={showNavBar} />
-            <PageContainer navOpen={showNavBar}>
+            <PageContainer>
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/php" component={PHP} />
                     <Route exact path="/php/config" component={PHPConfig} />
                 </Switch>
+                <NavBar show={showNavBar} />
             </PageContainer>
 
-            <NavBar show={showNavBar} />
             <Footer />
         </BrowserRouter>
     );

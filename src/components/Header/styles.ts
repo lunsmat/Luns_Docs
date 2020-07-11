@@ -8,11 +8,26 @@ export const Container = styled.header`
     justify-content: center;
     background: #6f42c1;
     color: #FFF;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
 
+    div {
+        position: relative;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #6f42c1;
+        color: #FFF;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
     svg {
+        display: none;
         position: absolute;
         top: 20px;
         right: 40px;
@@ -21,5 +36,9 @@ export const Container = styled.header`
         background: #17a2b8;
         padding: 5px;
         border-radius: 6px;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
     }
 `;

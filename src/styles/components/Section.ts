@@ -5,8 +5,11 @@ export default styled.section`
     flex-direction: column;
     padding: 10px;
     width: 100%;
-    height: 100%;
-    overflow-y: scroll;
+    transition: 800ms;
+    background: #FFF;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
 
     header {
         display: flex;
@@ -18,6 +21,7 @@ export default styled.section`
         h2 {
             color: #6f42c1;
             font-size: 28px;
+            text-align: center;
         }
         p {
             color: #6c757d;

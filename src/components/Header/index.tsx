@@ -11,11 +11,13 @@ interface Props {
 const Header: React.FC<Props> = ({ setShowNavBar, showNavBar}) => {
     return (
         <Container>
-            <h1>Luan's Docs</h1>
+            <div>
+                <h1>Luan's Docs</h1>
 
-            <FiMenu color="#FFF"
-                onClick={() => setShowNavBar(!showNavBar)}
-            />
+                <FiMenu color="#FFF"
+                    onClick={() => setShowNavBar(!showNavBar)}
+                />
+            </div>
         </Container>
     );
 }
