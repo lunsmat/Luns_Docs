@@ -8,6 +8,9 @@ import NavBar from './components/NavBar';
 import PageContainer from './styles/components/PageContainer';
 
 import Home from './pages/Home';
+
+import Browser from './pages/Browser';
+
 import PHP from './pages/PHP';
 import PHPConfig from './pages/PHP/Config';
 
@@ -21,6 +24,9 @@ const Routes: React.FC = () => {
             <PageContainer>
                 <Switch>
                     <Route exact path="/" component={Home} />
+
+                    <Route exact path="/config/browser" component={Browser} />
+
                     <Route exact path="/php" component={PHP} />
                     <Route exact path="/php/config" component={PHPConfig} />
                 </Switch>
