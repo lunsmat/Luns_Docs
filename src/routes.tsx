@@ -10,6 +10,7 @@ import PageContainer from './styles/components/PageContainer';
 import Home from './pages/Home';
 
 import Browser from './pages/Browser';
+import VsCode from './pages/VsCode';
 
 import PHP from './pages/PHP';
 import PHPConfig from './pages/PHP/Config';
@@ -26,6 +27,7 @@ const Routes: React.FC = () => {
                     <Route exact path="/" component={Home} />
 
                     <Route exact path="/config/browser" component={Browser} />
+                    <Route exact path="/config/vscode" component={VsCode} />
 
                     <Route exact path="/php" component={PHP} />
                     <Route exact path="/php/config" component={PHPConfig} />

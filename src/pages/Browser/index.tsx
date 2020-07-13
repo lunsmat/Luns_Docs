@@ -31,7 +31,7 @@ const Browser: React.FC = () => {
                         <p>Se você usa o windows você já deve ter instalado o Microsoft Edge em sua máquina, porém continue fazendo essas etapas pois você deve estar utilizando uma versão antiga dele.</p>
                         <p>Já se você não utiliza o windows você não terá esse navegador por padrão na sua máquina, porém o processo de instalação desse navegadoré bem simples. Basta seguir os seguintes passos:</p>
                         <ul>
-                            <li>Entre na página de download do Microsoft Edge,você pode entrar <a href="https://www.microsoft.com/pt-br/edge">clicando aqui.</a></li>
+                            <li>Entre na página de download do Microsoft Edge,você pode entrar <a href="https://www.microsoft.com/pt-br/edge" target="blank">clicando aqui.</a></li>
                             <li>Após isso você terá o instalador do Edge, basta executar e após isso o instalador irá instalar o Edge para você.</li>
                             <p>Após isso o navegador já estará instalado, logo você não terá de se preocupar.</p>
                         </ul>
@@ -63,10 +63,13 @@ const Browser: React.FC = () => {
 
                 <section>
                     <header>
-                        <h3>Finalizando:</h3>
+                        <h3>Finalizando...</h3>
+                    </header>
+
+                    <main>
                         <p>Tratando se de um resumo final eu diria que se você quer se tornar um desenvolvedor, pode ser uma melhor prática destinguir de suas ferramentas de uso pessoal para as ferramentas de uso de desenvolvimento.</p>
                         <p>Espero que você tenha entendido o fato da utilização do microsoft Edge e as vantangens que a nova versão dele pode trazer aos desenvolvedores. E o porquê de utilizar ele ao invés do Chrome, que continua sendo uma ótima opção.</p>
-                    </header>
+                    </main>
                 </section>
             </main>
         </Container>
