@@ -20,7 +20,7 @@ const NavBar: React.FC<Props> = (props) => {
 
                             <li><Link to="/config/browser">Navegador</Link></li>
                             <li><Link to="/config/vscode">Editor de códigos</Link></li>
-                            <li><Link to="/php/config/vscode">PHP, Servidor e o Banco de dados</Link></li>
+                            <li><Link to="/php/config/xampp">PHP, Servidor e o Banco de dados</Link></li>
                         </li>
                         <li><Link to="/php/start">Iniciando com PHP</Link></li>
                     </ul>

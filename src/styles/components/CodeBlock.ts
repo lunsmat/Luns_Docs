@@ -13,6 +13,7 @@ export default styled.code<Props>`
     background: #282a36;
     color: #f8f8f2;
     font-family: 'Fira Code', monospace, sans-serif;
+    font-weight: 600;
 
     .block {
         display: block;
