@@ -71,6 +71,19 @@ const Config: React.FC = () => {
                         <p>Após completar a instalação de o Microsoft Edge(Navegador), o Visual Studio Code(Editor de Código) e o XAMPP(Servidor, Banco de Dados e PHP) teremos um ambiente de desenvolvimento ideal para os nossos problemas do dia a dia com PHP.</p>
                     </main>
                 </section>
+
+                <section>
+                    <header>
+                        <h3>Estrutura da pasta htdocs</h3>
+                    </header>
+                    <main>
+                        <p>Para que você tenha uma noção de como utilizar a pasta htdocs, agora iremos aprender algumas coisas básicas.</p>
+                        <p>Você sabe que o apache sempre vai procurar pelo arquivo index, mas e se o nome do arquivo fosse <strong>teste.php</strong>?. Nesse caso, você poderia acessar do seu navegador por <strong>localhost/teste.php</strong>, onde após a / você especifica qual o arquivo.</p>
+                        <p>Mas e se eu tiver uma pasta chamada <strong>teste</strong> e dentro dessa pasta estivesse meu <strong>index.php</strong>? Nesse caso, você acessa no seu navagador por <strong>localhost/teste</strong>, pois assim após a / ele especifica a pasta e dentro dela procura pelo <strong>index.php</strong>.</p>
+                        <p>E se eu estivesse dentro da pasta <strong>teste</strong> e dentro dela estivesse o arquivo <strong>teste.php</strong>? Então você acessa no seu navegador por <strong>localhost/teste/teste.php</strong>, onde você especificou a pasta e o arquivo.</p>
+                        <p>Eu estou dando essa noção básica pois durante o tempo cujo eu vou explicar para vocês como funciona o PHP eu não direi para vocês criarem o arquivo, ou criar pastas e colocarem os arquivos nelas, pois agora cabem a vocês se interessar e colocar o código aqui aprendido em prática.</p>
+                    </main>
+                </section>
             </main>
         </Container>
     );

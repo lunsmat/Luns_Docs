@@ -14,6 +14,7 @@ import VsCode from './pages/VsCode';
 
 import PHP from './pages/PHP';
 import PHPConfig from './pages/PHP/Config';
+import PHPStart from './pages/PHP/Start';
 import XAMPP from './pages/PHP/Config/XAMPP';
 
 const Routes: React.FC = () => {
@@ -33,6 +34,7 @@ const Routes: React.FC = () => {
                     <Route exact path="/php" component={PHP} />
                     <Route exact path="/php/config" component={PHPConfig} />
                     <Route exact path="/php/config/xampp" component={XAMPP} />
+                    <Route exact path="/php/start" component={PHPStart} />
                 </Switch>
                 <NavBar show={showNavBar} />
             </PageContainer>
