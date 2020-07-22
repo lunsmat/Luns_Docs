@@ -14,8 +14,9 @@ import VsCode from './pages/VsCode';
 
 import PHP from './pages/PHP';
 import PHPConfig from './pages/PHP/Config';
-import PHPStart from './pages/PHP/Start';
 import XAMPP from './pages/PHP/Config/XAMPP';
+import PHPStart from './pages/PHP/Start';
+import PHPOutput from './pages/PHP/Start/Output';
 
 const Routes: React.FC = () => {
     const [showNavBar, setShowNavBar] = useState(true);
@@ -35,6 +36,7 @@ const Routes: React.FC = () => {
                     <Route exact path="/php/config" component={PHPConfig} />
                     <Route exact path="/php/config/xampp" component={XAMPP} />
                     <Route exact path="/php/start" component={PHPStart} />
+                    <Route exact path="/php/start/output" component={PHPOutput} />
                 </Switch>
                 <NavBar show={showNavBar} />
             </PageContainer>

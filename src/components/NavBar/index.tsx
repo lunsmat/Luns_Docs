@@ -22,7 +22,14 @@ const NavBar: React.FC<Props> = (props) => {
                             <li><Link to="/config/vscode">Editor de códigos</Link></li>
                             <li><Link to="/php/config/xampp">PHP, Servidor e o Banco de dados</Link></li>
                         </li>
-                        <li><Link to="/php/start">Aprendendo o PHP</Link></li>
+                        <li>
+                            <Link to="/php/start">Aprendendo o PHP</Link>
+                            <ul>
+                                <li>
+                                    <Link to="/php/start/output">Comandos de saída</Link>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>
