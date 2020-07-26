@@ -38,7 +38,7 @@ const Config: React.FC = () => {
                     <main>
                         <p>Você provavelmente já deve ter um navegador em sua máquina. Você deve normalmente utilizar ele pra fazer todas as suas pesquisas no dia a dia, porém, geralmente, um desenvolvedor deve utilizar navegadores diferentes nesses casos, tendo um navegador com o objetivo de usar para desenvolvimento, e outro para utilizar no dia a dia.</p>
                         <p>Geralmente, o navegador que é mais utilizado por desenvolvedores é o Google Chrome, devido a ele ter a V8(uma máquina por trás dele que interpreta javascript) de código aberto, portanto ele tem muitas ferramentas de desenvolvimento.</p>
-                        <p>Aqui, nós não iremos utilizar o Google Chrome,nós iremos utilizar o <i>Microsoft Edge</i>, pois as suas versões mais recentes foram feitas em cima da V8 que foi utilizada no Google Chrmoe, logo muitas das vantagens que se tinha, tambem tem agora no Microsoft Edge, inclusive, algumas extensões da Crhome Store estão disponíveis para ele. Além disso, o ganho de performance desse navegador, inclusive em sistemas Windows, foi bem grande, o que faz dele uma das melhores opções.</p>
+                        <p>Aqui, nós não iremos utilizar o Google Chrome,nós iremos utilizar o <i>Microsoft Edge</i>, pois as suas versões mais recentes foram feitas em cima da V8 que foi utilizada no Google Chrome, logo muitas das vantagens que se tinha, tambem tem agora no Microsoft Edge, inclusive, algumas extensões da Chrome Store estão disponíveis para ele. Além disso, o ganho de performance desse navegador, inclusive em sistemas Windows, foi bem grande, o que faz dele uma das melhores opções.</p>
                     </main>
                 </section>
 
@@ -69,19 +69,6 @@ const Config: React.FC = () => {
                         </ul>
                         <p>Quando se baixa esses três para o desenvolvimento chamamos de uma pilha AMP (Apache, MySQL, PHP). Geralmente os softwares que tem esses três juntos são os AMPs, e o software que iremos utilizar é o <i>XAMPP</i>, o último P é de Perl(uma outra linguagem de programação). Com o Xampp iremos instalar um único software e toda essa pilha irá funcionar.</p>
                         <p>Após completar a instalação de o Microsoft Edge(Navegador), o Visual Studio Code(Editor de Código) e o XAMPP(Servidor, Banco de Dados e PHP) teremos um ambiente de desenvolvimento ideal para os nossos problemas do dia a dia com PHP.</p>
-                    </main>
-                </section>
-
-                <section>
-                    <header>
-                        <h3>Estrutura da pasta htdocs</h3>
-                    </header>
-                    <main>
-                        <p>Para que você tenha uma noção de como utilizar a pasta htdocs, agora iremos aprender algumas coisas básicas.</p>
-                        <p>Você sabe que o apache sempre vai procurar pelo arquivo index, mas e se o nome do arquivo fosse <strong>teste.php</strong>?. Nesse caso, você poderia acessar do seu navegador por <strong>localhost/teste.php</strong>, onde após a / você especifica qual o arquivo.</p>
-                        <p>Mas e se eu tiver uma pasta chamada <strong>teste</strong> e dentro dessa pasta estivesse meu <strong>index.php</strong>? Nesse caso, você acessa no seu navagador por <strong>localhost/teste</strong>, pois assim após a / ele especifica a pasta e dentro dela procura pelo <strong>index.php</strong>.</p>
-                        <p>E se eu estivesse dentro da pasta <strong>teste</strong> e dentro dela estivesse o arquivo <strong>teste.php</strong>? Então você acessa no seu navegador por <strong>localhost/teste/teste.php</strong>, onde você especificou a pasta e o arquivo.</p>
-                        <p>Eu estou dando essa noção básica pois durante o tempo cujo eu vou explicar para vocês como funciona o PHP eu não direi para vocês criarem o arquivo, ou criar pastas e colocarem os arquivos nelas, pois agora cabem a vocês se interessar e colocar o código aqui aprendido em prática.</p>
                     </main>
                 </section>
             </main>

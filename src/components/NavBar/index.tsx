@@ -28,6 +28,10 @@ const NavBar: React.FC<Props> = (props) => {
                                 <li>
                                     <Link to="/php/start/output">Comandos de saída</Link>
                                 </li>
+                                <li>
+                                    <Link to="/php/start/variables">Variáveis</Link>
+                                </li>
+
                             </ul>
                         </li>
                     </ul>

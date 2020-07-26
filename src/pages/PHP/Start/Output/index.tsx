@@ -62,7 +62,7 @@ const Output: React.FC = () => {
                                 <span className="pink">{"<?php"}</span>
 
                                 <div className="block">
-                                    <span className="cyan">echo</span>
+                                    <span className="cyan">print</span>
                                     &nbsp;
                                     <span className="yellow">"Hello World!{"<br />"}"</span>;
                                     <span className="comment"> // Nesse exemplo o comando print escreve "Hello World!" na tela</span>
